@@ -1,0 +1,13 @@
+prefix=/home/rjomega/github/ML_deployment_project/venv
+exec_prefix=/home/rjomega/github/ML_deployment_project/venv
+libdir=/home/rjomega/github/ML_deployment_project/venv/lib
+sharedlibdir=/home/rjomega/github/ML_deployment_project/venv/lib
+includedir=/home/rjomega/github/ML_deployment_project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
