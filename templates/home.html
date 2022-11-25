@@ -14,24 +14,21 @@
 
 <body>
  <div class="login">
-	<h1>Boston House Price Prediction</h1>
+	<h1>Red Wine Quality Prediction</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="CRIM" placeholder="CRIM" required="required" /><br>
-    	<input type="text" name="ZN" placeholder="ZN" required="required" /><br>
-        <input type="text" name="INDUS" placeholder="INDUS" required="required" /><br>
-        <input type="text" name="CHAS" placeholder="CHAS" required="required" /><br>
-        <input type="text" name="NOX" placeholder="NOX" required="required" /><br>
-        <input type="text" name="RM" placeholder="RM" required="required" /><br>
-        <input type="text" name="Age" placeholder="Age" required="required" /><br>
-        <input type="text" name="DIS" placeholder="DIS" required="required" /><br>
-        <input type="text" name="RAD" placeholder="RAD" required="required" /><br>
-        <input type="text" name="TAX" placeholder="TAX" required="required" /><br>
-        <input type="text" name="PTRATIO" placeholder="PTRATIO" required="required" /><br>
-        <input type="text" name="B" placeholder="B" required="required" /><br>
-        <input type="text" name="LSTAT" placeholder="LSTAT" required="required" /><br>
-
+      <input type="text" name="fixed acidity" placeholder="fixed acidity" required="required" /><br>
+    	<input type="text" name="volatile acidity" placeholder="volatile acidity" required="required" /><br>
+        <input type="text" name="citric acid" placeholder="citric acid" required="required" /><br>
+        <input type="text" name="residual sugar" placeholder="residual sugar" required="required" /><br>
+        <input type="text" name="chlorides" placeholder="chlorides" required="required" /><br>
+        <input type="text" name="free sulfur dioxide" placeholder="free sulfur dioxide" required="required" /><br>
+        <input type="text" name="total sulfur dioxide" placeholder="total sulfur dioxide" required="required" /><br>
+        <input type="text" name="density" placeholder="density" required="required" /><br>
+        <input type="text" name="pH" placeholder="pH" required="required" /><br>
+        <input type="text" name="sulphates" placeholder="sulphates" required="required" /><br>
+        <input type="text" name="alcohol" placeholder="alcohol" required="required" /><br>
        
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
